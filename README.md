@@ -1,17 +1,6 @@
 # Exemplo de implementação RMI
 
-A comunicação entre sistemas distribuídos é uma parte essencial da computação
-moderna. O Remote Method Invocation (RMI) é uma tecnologia que permite a
-execução remota de métodos de objetos em sistemas distribuídos em Java,
-através do uso de objetos e interfaces remotas. O RMI é uma maneira poderosa
-de permitir a comunicação e interação entre aplicativos distribuídos em uma
-rede. Nesta atividade prática, foi implementado um programa RMI cujo objetivo
-é calcular as raízes de uma equação de segundo grau, conhecida como a fórmula
-de Bhaskara.
-A fórmula de Bhaskara é usada para calcular as raízes de uma equação
-quadrática da forma EQUACAO , em que a, b e c são os coeficientes
-reais. A fórmula é dada por:
-
+A comunicação entre sistemas distribuídos é uma parte essencial da computação moderna. O Remote Method Invocation (RMI) é uma tecnologia que permite a execução remota de métodos de objetos em sistemas distribuídos em Java, através do uso de objetos e interfaces remotas. O RMI é uma maneira poderosade permitir a comunicação e interação entre aplicativos distribuídos em uma rede. Nesta atividade prática, foi implementado um programa RMI cujo objetivoé calcular as raízes de uma equação de segundo grau, conhecida como a fórmula de Bhaskara. A fórmula de Bhaskara é usada para calcular as raízes de uma equação quadrática da forma $ax²+bx+c$, em que a, b e c são os coeficientes reais. A fórmula é dada por: 
 $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
@@ -76,4 +65,4 @@ SERVIDOR
 
 O uso do RMI é uma maneira poderosa de implementar comunicação entre sistemas distribuídos em Java. Neste projeto, foi utilizada essa tecnologia para calcular as raízes de uma equação de segundo grau remotamente. Isso demonstra
 como o RMI pode ser utilizado para resolver problemas práticos em sistemas distribuídos, permitindo que os clientes executem funções em servidores remotos de maneira transparente. Esta atividade prática ilustra a 
- mportância da comunicação entre sistemas e a utilidade do RMI como uma ferramenta para alcançar essa comunicação.
+importância da comunicação entre sistemas e a utilidade do RMI como uma ferramenta para alcançar essa comunicação.
