@@ -1,6 +1,7 @@
 # Exemplo de implementação RMI
 
 A comunicação entre sistemas distribuídos é uma parte essencial da computação moderna. O Remote Method Invocation (RMI) é uma tecnologia que permite a execução remota de métodos de objetos em sistemas distribuídos em Java, através do uso de objetos e interfaces remotas. O RMI é uma maneira poderosade permitir a comunicação e interação entre aplicativos distribuídos em uma rede. Nesta atividade prática, foi implementado um programa RMI cujo objetivoé calcular as raízes de uma equação de segundo grau, conhecida como a fórmula de Bhaskara. A fórmula de Bhaskara é usada para calcular as raízes de uma equação quadrática da forma $ax²+bx+c$, em que a, b e c são os coeficientes reais. A fórmula é dada por: 
+
 $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
